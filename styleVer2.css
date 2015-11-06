@@ -1,0 +1,38 @@
+/** General CSS **/
+*				  { padding: 0; margin: 0; }
+h1,h2,h3,h4,h5,h6 { line-height: 1.1; }
+table,tr,td,th 	  { border-collapse: collapse; }   
+a 			      { color: #222; text-decoration: none; }
+img 			  { border-width: none; }
+body 			  { background: #eee; }
+html 			  { font-family: segoe ui; color: #222; }
+ol,ul,li 		  { list-style: none; }
+
+/** Layout **/
+.wrapper 	{ width: 90%; background: #eee; margin: auto; }
+.navbar 	{ height: 65px; }
+.header 	{ height: 250px; text-align: center; }
+.container 	{ width: 100%;  }
+.sidebar 	{ width: 20%; }
+.content 	{ width: 80%; }
+.search 	{  }
+.about 		{  }
+.navigation {  }
+.footer 	{ height: 50px; text-align: center; }
+
+/** Sub Layout **/
+.navbar table { height: 100%; }
+.navTable1    { float: left; width: 250px; text-transform: uppercase; }
+.navTable2 	  { float: right; width: 250px; text-align: right; text-transform: uppercase; }
+
+.header table { margin: auto; }
+.header h1 	  { padding:10px; font-size: 70px; }
+.header img   { width: 140px; height: 140px; border-radius: 100%; }
+.header td 	  { width: 150px; }
+.header a 	  { font-size: 15px; }
+
+.container td { vertical-align: top; }
+
+.sidebar img  { width: 50px; height: 50px; }
+
+.footer p 	  { padding-top: 10px; border-top: 2px solid #ccc; }
